@@ -1,0 +1,48 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom styles */
+body, html {
+    height: 100%; /* Garante que o corpo e o html ocupem toda a altura da janela do navegador */
+}
+
+.custom-tab-bar {
+    background-color: #333;
+    padding: 10px;
+    height: 100%; /* Ajusta a altura da barra de navegação para ocupar toda a altura */
+    display: flex;
+    flex-direction: column; /* Organiza os itens verticalmente */
+    justify-content: flex-end; /* Alinha a barra de navegação à extremidade inferior */
+    align-items: flex-end; /* Alinha a barra de navegação à direita */
+}
+
+.custom-tab-bar__tabs {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column; /* Organiza os itens verticalmente */
+}
+
+.custom-tab-bar__tab {
+    margin-bottom: 10px; /* Adiciona espaço entre as guias */
+}
+
+.custom-tab-bar__tab-link {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+.custom-tab-bar__tab-icon {
+    margin-right: 5px; /* Adiciona espaço entre o ícone e o texto */
+    width: 24px; /* Define a largura do ícone */
+    height: 24px; /* Define a altura do ícone */
+}
+
+.custom-tab-bar__tab-name {
+    font-size: 14px; /* Define o tamanho da fonte do texto */
+}
